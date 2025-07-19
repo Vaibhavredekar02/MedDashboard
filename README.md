@@ -18,22 +18,7 @@ Build a clean and simple Medical Dashboard with:
 
 
 ## 📂 Folder Structure
----
-MedicalDashboard/
-│
-├── Controllers/            # MVC Controllers (Auth, Dashboard)
-├── Models/                 # User model and related EF entities
-├── Views/
-│   ├── Auth/               # Login, Register, ForgotPassword
-│   └── Dashboard/          # Profile + Upload + Preview
-│
-├── Content/                # CSS, uploaded profile images
-├── Scripts/                # JS files (if any)
-├── App_Data/               # SQL Database (if local .mdf used)
-├── Web.config              # DB connection string
-└── README.md
-
----
+<pre> ``` MedicalDashboard/ │ ├── Controllers/ # MVC Controllers (Auth, Dashboard) ├── Models/ # User model and related EF entities ├── Views/ │ ├── Auth/ # Login, Register, ForgotPassword │ └── Dashboard/ # Profile + Upload + Preview │ ├── Content/ # CSS, uploaded profile images ├── Scripts/ # JS files (if any) ├── App_Data/ # SQL Database (if local .mdf used) ├── Web.config # DB connection string └── README.md ``` </pre>
 
 
 
