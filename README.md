@@ -21,17 +21,18 @@ Build a clean and simple Medical Dashboard with:
 
 MedicalDashboard/
 │
-├── Controllers/ # MVC Controllers (Auth, Dashboard)
-├── Models/ # User model and related EF entities
+├── Controllers/            # MVC Controllers (Auth, Dashboard)
+├── Models/                 # User model and related EF entities
 ├── Views/
-│ ├── Auth/ # Login, Register, ForgotPassword
-│ └── Dashboard/ # Profile + Upload + Preview
+│   ├── Auth/               # Login, Register, ForgotPassword
+│   └── Dashboard/          # Profile + Upload + Preview
 │
-├── Content/ # CSS, uploaded profile images
-├── Scripts/ # JS files (if any)
-├── App_Data/ # SQL Database (if local .mdf used)
-├── Web.config # DB connection string
+├── Content/                # CSS, uploaded profile images
+├── Scripts/                # JS files (if any)
+├── App_Data/               # SQL Database (if local .mdf used)
+├── Web.config              # DB connection string
 └── README.md
+
 
 
 
