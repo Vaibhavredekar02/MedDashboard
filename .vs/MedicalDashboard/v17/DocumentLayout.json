@@ -1,0 +1,253 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MVC\\MedicalDashboard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|d:\\mvc\\medicaldashboard\\medicaldashboard\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|solutionrelative:medicaldashboard\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|D:\\MVC\\MedicalDashboard\\medicaldashboard\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|solutionrelative:medicaldashboard\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|D:\\MVC\\MedicalDashboard\\medicaldashboard\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|solutionrelative:medicaldashboard\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|D:\\MVC\\MedicalDashboard\\medicaldashboard\\views\\auth\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|solutionrelative:medicaldashboard\\views\\auth\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|D:\\MVC\\MedicalDashboard\\medicaldashboard\\views\\auth\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|solutionrelative:medicaldashboard\\views\\auth\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|D:\\MVC\\MedicalDashboard\\medicaldashboard\\views\\dashboard\\medicaldashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|solutionrelative:medicaldashboard\\views\\dashboard\\medicaldashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|D:\\MVC\\MedicalDashboard\\medicaldashboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|solutionrelative:medicaldashboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|D:\\MVC\\MedicalDashboard\\medicaldashboard\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|solutionrelative:medicaldashboard\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|D:\\MVC\\MedicalDashboard\\medicaldashboard\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|solutionrelative:medicaldashboard\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|D:\\MVC\\MedicalDashboard\\medicaldashboard\\models\\medicalfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|solutionrelative:medicaldashboard\\models\\medicalfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|D:\\MVC\\MedicalDashboard\\medicaldashboard\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|solutionrelative:medicaldashboard\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|D:\\MVC\\MedicalDashboard\\medicaldashboard\\migrations\\202507180646537_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|solutionrelative:medicaldashboard\\migrations\\202507180646537_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|D:\\MVC\\MedicalDashboard\\medicaldashboard\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F279693-9920-4A54-B031-45345847A1F1}|MedicalDashboard\\MedicalDashboard.csproj|solutionrelative:medicaldashboard\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "202507180646537_InitialCreate.cs",
+              "DocumentMoniker": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Migrations\\202507180646537_InitialCreate.cs",
+              "RelativeDocumentMoniker": "MedicalDashboard\\Migrations\\202507180646537_InitialCreate.cs",
+              "ToolTip": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Migrations\\202507180646537_InitialCreate.cs",
+              "RelativeToolTip": "MedicalDashboard\\Migrations\\202507180646537_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T08:24:24.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MedicalDashboard\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MedicalDashboard\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T07:04:23.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Models\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "MedicalDashboard\\Models\\DashboardViewModel.cs",
+              "ToolTip": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Models\\DashboardViewModel.cs",
+              "RelativeToolTip": "MedicalDashboard\\Models\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T07:26:06.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Views\\Auth\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "MedicalDashboard\\Views\\Auth\\ResetPassword.cshtml",
+              "ToolTip": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Views\\Auth\\ResetPassword.cshtml",
+              "RelativeToolTip": "MedicalDashboard\\Views\\Auth\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T07:08:29.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Views\\Auth\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "MedicalDashboard\\Views\\Auth\\ForgotPassword.cshtml",
+              "ToolTip": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Views\\Auth\\ForgotPassword.cshtml",
+              "RelativeToolTip": "MedicalDashboard\\Views\\Auth\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T07:07:31.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MedicalDashboard.cshtml",
+              "DocumentMoniker": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Views\\Dashboard\\MedicalDashboard.cshtml",
+              "RelativeDocumentMoniker": "MedicalDashboard\\Views\\Dashboard\\MedicalDashboard.cshtml",
+              "ToolTip": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Views\\Dashboard\\MedicalDashboard.cshtml",
+              "RelativeToolTip": "MedicalDashboard\\Views\\Dashboard\\MedicalDashboard.cshtml",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAuwNcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T06:57:12.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "MedicalDashboard\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "MedicalDashboard\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAuwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:55:43.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "MedicalDashboard\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "MedicalDashboard\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T06:53:55.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "MedicalDashboard\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "MedicalDashboard\\Views\\Auth\\Register.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T06:52:26.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "MedicalDashboard\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "MedicalDashboard\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAewJMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:50:37.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MedicalDashboard\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MedicalDashboard\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:38:36.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MedicalFile.cs",
+              "DocumentMoniker": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Models\\MedicalFile.cs",
+              "RelativeDocumentMoniker": "MedicalDashboard\\Models\\MedicalFile.cs",
+              "ToolTip": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Models\\MedicalFile.cs",
+              "RelativeToolTip": "MedicalDashboard\\Models\\MedicalFile.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:38:00.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Models\\User.cs",
+              "RelativeDocumentMoniker": "MedicalDashboard\\Models\\User.cs",
+              "ToolTip": "D:\\MVC\\MedicalDashboard\\MedicalDashboard\\Models\\User.cs",
+              "RelativeToolTip": "MedicalDashboard\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T06:37:29.072Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

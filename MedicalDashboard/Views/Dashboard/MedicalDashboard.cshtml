@@ -1,0 +1,317 @@
+﻿@model MedicalDashboard.Models.DashboardViewModel
+
+@{
+    ViewBag.Title = "Medical Dashboard";
+}
+
+<style>
+    .dashboard-wrapper {
+        font-family: 'Segoe UI', sans-serif;
+        background: #f9f9f9;
+        padding: 20px;
+    }
+
+    .section-box {
+        background: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        margin-bottom: 20px;
+    }
+
+    .input-group label {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .input-group {
+        margin-bottom: 15px;
+    }
+
+    .profile-card {
+        background: #d6e9ff;
+        border-radius: 15px;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        flex-wrap: wrap;
+    }
+
+        .profile-card .profile-id {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            background: white;
+            padding: 5px 12px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+    .profile-image-section {
+        text-align: center;
+        flex: 0 0 150px;
+        position: relative;
+    }
+
+        .profile-image-section img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid white;
+            object-fit: cover;
+        }
+
+    .change-btn {
+        background: none;
+        border: none;
+        font-weight: bold;
+        color: #333;
+        margin-top: 8px;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .file-input-hidden {
+        display: none;
+    }
+
+    .profile-info-section {
+        flex: 1;
+        margin-left: 30px;
+    }
+
+        .profile-info-section h3 {
+            color: #0047ab;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .profile-info-section label {
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 15px;
+        }
+
+        .profile-info-section input[type="text"],
+        .profile-info-section input[type="email"] {
+            padding: 5px 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 250px;
+        }
+
+    .gender-options {
+        display: inline-flex;
+        gap: 10px;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .btn-save-yellow {
+        background-color: #ffe670;
+        color: black;
+        font-weight: bold;
+        padding: 8px 20px;
+        border: none;
+        border-radius: 8px;
+        margin-top: 15px;
+    }
+
+    .upload-card {
+        width: 250px;
+        background: #fff;
+        border-radius: 10px;
+        padding: 15px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .upload-preview {
+        width: 100%;
+        height: 200px;
+        object-fit: contain;
+        border: 1px solid #ddd;
+    }
+
+    .upload-section h4 {
+        margin-bottom: 20px;
+    }
+
+    .styled-select,
+    .styled-input {
+        padding: 8px 12px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        font-size: 15px;
+        width: 100%;
+        box-sizing: border-box;
+        transition: border-color 0.3s;
+    }
+
+        .styled-select:focus,
+        .styled-input:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+
+    .btn-upload {
+        background-color: #0047ab;
+        color: white;
+        font-weight: bold;
+        padding: 10px 24px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-top: 15px;
+        transition: background-color 0.3s;
+    }
+
+        .btn-upload:hover {
+            background-color: #003b8a;
+        }
+
+</style>
+
+<script>
+    function previewProfileImage(input) {
+        if (input.files && input.files[0]) {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                document.getElementById('profilePreview').src = e.target.result;
+            };
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+</script>
+
+<div class="dashboard-wrapper">
+    <div style="display: flex; gap: 20px; margin-top: 20px; flex-wrap: wrap;">
+        <!-- Left Panel: Profile -->
+        <div class="section-box" style="flex: 1;">
+            <div class="profile-card">
+                <div class="profile-id">FH54J7GV76B</div>
+
+                @using (Html.BeginForm("UpdateProfile", "Dashboard", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    <div class="profile-image-section">
+                        <img id="profilePreview" src="@(!string.IsNullOrEmpty(Model.User.ProfileImagePath) ? Url.Content(Model.User.ProfileImagePath) : Url.Content("~/Content/default-avatar.png"))"
+                             alt="Profile Image" />
+                        <br />
+                        <button type="button" class="change-btn" onclick="document.getElementById('profilePicInput').click();">Change</button>
+                        <input type="file" id="profilePicInput" name="profilePic" class="file-input-hidden" accept="image/*" onchange="previewProfileImage(this)" />
+                    </div>
+
+                    <div class="profile-info-section">
+                        <h3>@Model.User.FullName</h3>
+
+                        <div class="input-group">
+                            <label>Email :</label>
+                            <input type="email" name="Email" value="@Model.User.Email" readonly />
+                        </div>
+
+                        <div class="input-group">
+                            <label>Phone :</label>
+                            <input type="text" name="Phone" value="@Model.User.Phone" />
+                        </div>
+
+                        <div class="input-group">
+                            <label>Gender :</label>
+                            <div class="gender-options">
+                                <label><input type="radio" name="Gender" value="Male" @(Model.User.Gender == "Male" ? "checked" : "") /> Male</label>
+                                <label><input type="radio" name="Gender" value="Female" @(Model.User.Gender == "Female" ? "checked" : "") /> Female</label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn-save-yellow">Save</button>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <!-- Right Panel: Upload -->
+        <div class="section-box" style="flex: 1;">
+            <h4 class="fw-bold text-primary mb-4">📄 Please Add Your Medical Records</h4>
+
+            @using (Html.BeginForm("UploadFile", "Dashboard", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                <div class="mb-3">
+                    <label for="fileType" class="form-label fw-semibold">Select File Type</label>
+                    <select name="fileType" class="form-select" required>
+                        <option value="">-- Select file type --</option>
+                        <option value="Lab Report">Lab Report</option>
+                        <option value="Prescription">Prescription</option>
+                        <option value="X-Ray">X-Ray</option>
+                        <option value="Blood Report">Blood Report</option>
+                        <option value="MRI Scan">MRI Scan</option>
+                        <option value="CT Scan">CT Scan</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="fileName" class="form-label fw-semibold">Enter Name of File</label>
+                    <input type="text" name="fileName" class="form-control" placeholder="e.g., X-Ray Report May 2025" required />
+                </div>
+
+                <div class="mb-3">
+                    <label for="file" class="form-label fw-semibold">Select File</label>
+                    <input type="file" name="file" class="form-control" accept=".pdf,.jpg,.jpeg,.png" required />
+                </div>
+
+                <button type="submit" class="btn btn-primary px-4 py-2">Upload</button>
+            }
+        </div>
+
+
+    </div>
+
+    <!-- Uploaded Files Section -->
+    <hr />
+    <h4 style="font-weight: bold;">📁 Uploaded Files</h4>
+
+    @if (Model.UploadedFiles != null && Model.UploadedFiles.Any())
+    {
+        <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+            @foreach (var file in Model.UploadedFiles)
+            {
+                var ext = System.IO.Path.GetExtension(file.FilePath).ToLower();
+                bool isImage = ext == ".jpg" || ext == ".jpeg" || ext == ".png" || ext == ".gif";
+                bool isPdf = ext == ".pdf";
+
+                <div class="upload-card">
+                    <p style="font-weight: bold;">@file.FileName</p>
+                    <p style="color: gray;">Type: @file.FileType</p>
+
+                    @if (isPdf)
+                    {
+                        <embed src="@Url.Content(file.FilePath)" width="100%" height="200px" type="application/pdf" />
+                    }
+                    else if (isImage)
+                    {
+                        <img src="@Url.Content(file.FilePath)" alt="Preview" class="upload-preview" />
+                    }
+                    else
+                    {
+                        <p>Unsupported file format</p>
+                    }
+
+                    <div style="margin-top: 10px; display: flex; justify-content: space-between;">
+                        <a class="btn btn-info btn-sm" href="@Url.Content(file.FilePath)" target="_blank">View</a>
+                        @using (Html.BeginForm("DeleteFile", "Dashboard", FormMethod.Post))
+                        {
+                            @Html.Hidden("id", file.FileId)
+                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p style="color: gray;">No files uploaded yet. Uploaded files will appear here in a responsive manner.</p>
+    }
+</div>
