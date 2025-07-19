@@ -15,10 +15,10 @@ Build a clean and simple Medical Dashboard with:
 
 ✅ All core functionalities are implemented and validated **via MVC pattern (not Web API)**.
 
----
+
 
 ## 📂 Folder Structure
-
+---
 MedicalDashboard/
 │
 ├── Controllers/            # MVC Controllers (Auth, Dashboard)
@@ -33,7 +33,7 @@ MedicalDashboard/
 ├── Web.config              # DB connection string
 └── README.md
 
-
+---
 
 
 
